@@ -17,7 +17,7 @@ export const CarouselContainer = styled.ul`
 
   margin-bottom: 80px;
 
-  //remove scrollbar
+  // remove scrollbar
   scrollbar-width: none;  
    &::-webkit-scrollbar {
      display: none;
@@ -119,7 +119,6 @@ export const CarouselItemText = styled.p`
 `
 export const CarouselButtons = styled.div`
   width: 288px;
-
   display: none;
   visibility: hidden;
 

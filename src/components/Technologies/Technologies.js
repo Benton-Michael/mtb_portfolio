@@ -6,7 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
  <Section id="tech">
   <SectionDivider />
+  <br />
   <SectionTitle>Technologies</SectionTitle>
+  {/* <br /> */}
     <SectionText>
       I have used many tools and technologies related to web development and software engineering. 
     </SectionText>
@@ -34,9 +36,9 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiMongodb size="3rem" />
         <ListContainer>
-          <ListTitle>DB</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experience with: <br />
             MySQL | MongoDB
