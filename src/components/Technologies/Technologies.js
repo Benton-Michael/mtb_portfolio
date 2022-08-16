@@ -10,7 +10,7 @@ const Technologies = () =>  (
   <SectionTitle>Technologies</SectionTitle>
   {/* <br /> */}
     <SectionText>
-      I have used many tools and technologies related to web development and software engineering. 
+      I'm familiar with many tools and technologies related to web development and software engineering. Databases: MySQL and MongoDB + MySQL Workbench. API testing: Postman, Thunder Client. IDE's: VSCode, Spring Boot, Xcode. Product: Balsamiq, Figma.
     </SectionText>
     <List>
       <ListItem>

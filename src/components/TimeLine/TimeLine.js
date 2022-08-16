@@ -10,7 +10,7 @@ const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
-  const scroll = (node, left) => {
+  const scrollTo = (node, left) => {
     return node.scrollTo({ left, behavior: 'smooth' });
   }
 
@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
         <SectionText>
-          Milestones + other coding journey experiences I want to share
+          I'm deeply passionate about software development! After earning a BS in Computer Science and completing Coding Dojo's three-stack bootcamp (Python, Java, MERN) I'm currently focused on full-stack web development, building React SPA's.
         </SectionText>
         <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
           <>
@@ -112,7 +112,7 @@ const Timeline = () => {
             </CarouselButton>
           ))}
         </CarouselButtons>
-        <SectionDivider />
+      <SectionDivider />
     </Section>
   );
 };

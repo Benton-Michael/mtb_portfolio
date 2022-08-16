@@ -20,6 +20,7 @@ const Hero = (props) => (
         I'm a full-stack developer. I graduated from Coding Dojo and hold a BS in Computer Science and Political Science, as well as an MSc in International Development.
       </SectionText>
       <Button onClick={() => window.location = 'mailto:mbenton002@gmail.com'}>
+      
         Get in touch
       </Button>
 
